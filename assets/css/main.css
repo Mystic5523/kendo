@@ -9,7 +9,7 @@ body, html {
 }
 
 .splash {
-  background-image: url("images/kendo2.jpg");
+  background-image: url("../images/kendo2.JPG");
   min-height: 100%;
   position: relative;
   background-position: center;
