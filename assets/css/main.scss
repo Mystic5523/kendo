@@ -1,0 +1,98 @@
+$colors: (
+    primary: darkblue,
+    secondary: gold,
+    secondary-dark: darken(gold, 20%),
+    icon: rgba(0,100,0,.7),
+    icon-dark: darken(rgba(0,100,0,.7), 20%),
+    text: #ddd,
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+};
+
+$phone: 500px;
+$tablet: 760px;
+$desktop: 840px;
+$widescreen: 1100px;
+
+@mixin phone {
+    @media (max-width: #{$phone}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin widescreen {
+    @media (min-width:#{$widescreen}) {
+        @content;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: color(primary);
+}
+
+.splash{
+    background-image:url("../images/kendo2.jpg");
+    min-height: 100%;
+    position: relative;
+    // opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: color(primary);
+
+    .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        // text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+    
+    .ptext .label {
+        background-color: #111;
+        color: color(primary);
+        padding: 20px;
+        border-color: #111;
+    }
+}
+
+section {
+    // text-align: center;
+    padding: 30px 40px;
+    background-color: darkslateblue;
+    color: color(text);
+    width: 100%;
+}
+
+.headshot {
+    background-color: #ddd;
+    float: right;
+    color: darkslateblue;
+    margin: 1em;
+}
+
+
