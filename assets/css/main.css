@@ -7,7 +7,7 @@ body, html {
   line-height: 1.8em;
   background-color: ghostwhite;
   background-image: url(../images/rough-cloth.png);
-  color: midnightblue;
+  color: black;
 }
 
 .splash {
@@ -41,7 +41,6 @@ body, html {
 
 .mission .service .process {
   padding: 30px 40px;
-  color: black;
   width: 100%;
 }
 
