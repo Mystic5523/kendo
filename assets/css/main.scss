@@ -1,10 +1,10 @@
 $colors: (
-    primary: darkblue,
+    primary: midnightblue,
     secondary: gold,
     secondary-dark: darken(gold, 20%),
     icon: rgba(0,100,0,.7),
     icon-dark: darken(rgba(0,100,0,.7), 20%),
-    text: midnightblue,
+    text: black,
 );
 
 @function color($color-name) {
@@ -69,32 +69,37 @@ body, html {
 
     .ptext {
         position: absolute;
-        top: 50%;
+        top: 25%;
         width: 100%;
         text-align: center;
         font-size: 28px;
         letter-spacing: 8px;
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
+
     }
     
     .label {
-        .title {
-            color: ghostwhite;
-            padding: 20px;
-            font-size: 8rem;
-            vertical-align: top;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        background-color: #111;
+        background-color: rgb(52,58,64);
         color: ghostwhite;
         padding: 20px;
-        border-color: #111;
-    }
+        border-color: rgb(52,58,64);
+
+
+            .img {
+            }
+
+            // .title {
+            //         color: ghostwhite;
+            //         padding: 20px;
+            //         font-size: 8rem;
+            //         vertical-align: top;
+            //         font-family: 'Roboto', sans-serif;
+            // }
+        }
 }
 
-.mission, .service {
+.mission .service .process {
     // text-align: center;
     padding: 30px 40px;
     color: color(text);
@@ -103,15 +108,20 @@ body, html {
 
 .price {
     background-color: whitesmoke;
-    color: rgb(0, 0, 140);
+    color: midnightblue;
     margin: 1em;
     float: right;
 }
 
 .headshot {
     background-color: whitesmoke;
-    color: rgb(0, 0, 140);
+    color: midnightblue;
     margin: 1em;
+    padding: 1em;
+
+    .card-title {
+        margin-top: 1em;
+    }
 }
 
 footer {

@@ -7,7 +7,7 @@ body, html {
   line-height: 1.8em;
   background-color: ghostwhite;
   background-image: url(../images/rough-cloth.png);
-  color: darkblue;
+  color: midnightblue;
 }
 
 .splash {
@@ -18,12 +18,12 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: darkblue;
+  background-color: midnightblue;
 }
 
 .splash .ptext {
   position: absolute;
-  top: 50%;
+  top: 25%;
   width: 100%;
   text-align: center;
   font-size: 28px;
@@ -33,37 +33,34 @@ body, html {
 }
 
 .splash .label {
-  background-color: #111;
+  background-color: #343a40;
   color: ghostwhite;
   padding: 20px;
-  border-color: #111;
+  border-color: #343a40;
 }
 
-.splash .label .title {
-  color: ghostwhite;
-  padding: 20px;
-  font-size: 8rem;
-  vertical-align: top;
-  font-family: 'Roboto', sans-serif;
-}
-
-.mission, .service {
+.mission .service .process {
   padding: 30px 40px;
-  color: midnightblue;
+  color: black;
   width: 100%;
 }
 
 .price {
   background-color: whitesmoke;
-  color: #00008c;
+  color: midnightblue;
   margin: 1em;
   float: right;
 }
 
 .headshot {
   background-color: whitesmoke;
-  color: #00008c;
+  color: midnightblue;
   margin: 1em;
+  padding: 1em;
+}
+
+.headshot .card-title {
+  margin-top: 1em;
 }
 
 footer {
