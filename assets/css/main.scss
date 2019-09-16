@@ -84,25 +84,23 @@ body, html {
         color: ghostwhite;
         padding: 20px;
         border-color: rgb(52,58,64);
+    }
+}
 
+section {
+    margin: 1em;
+    margin-left: 1.5em;
 
-            .img {
-            }
-
-            // .title {
-            //         color: ghostwhite;
-            //         padding: 20px;
-            //         font-size: 8rem;
-            //         vertical-align: top;
-            //         font-family: 'Roboto', sans-serif;
-            // }
-        }
+    p {
+        margin-left: 1em;
+    }
 }
 
 .mission .service .process {
-    // text-align: center;
-    padding: 30px 40px;
+    margin: 3em;
+    padding: 300px 40px;
     width: 100%;
+    position: relative;
 }
 
 .price {

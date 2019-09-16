@@ -39,9 +39,20 @@ body, html {
   border-color: #343a40;
 }
 
+section {
+  margin: 1em;
+  margin-left: 1.5em;
+}
+
+section p {
+  margin-left: 1em;
+}
+
 .mission .service .process {
-  padding: 30px 40px;
+  margin: 3em;
+  padding: 300px 40px;
   width: 100%;
+  position: relative;
 }
 
 .price {
