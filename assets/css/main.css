@@ -62,6 +62,10 @@ section p {
   float: right;
 }
 
+.price p {
+  margin-left: 0;
+}
+
 .headshot {
   background-color: whitesmoke;
   color: midnightblue;
