@@ -48,6 +48,10 @@ section p {
   margin-left: 1em;
 }
 
+section h2 {
+  color: darkblue;
+}
+
 .mission .service .process {
   margin: 3em;
   padding: 300px 40px;
